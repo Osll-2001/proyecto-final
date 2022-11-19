@@ -1,0 +1,80 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  /*background-color: #242424;*/
+  background-image: url('./assets/Capture001.png');
+  color: #fafafa;
+}
+
+
+/*------------------LOGIN-------------------------------*/
+.formLogin{
+  margin: 30px;
+  padding: 30px;
+  /*background-color:#212121;*/
+  background-color: rgba(0,0,0, 0.7);
+  border-radius: 10px;
+}
+
+.titleForm{
+  color: #4aa7b2;
+}
+
+.sectionForm{
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  width: 300px;
+}
+
+label{
+  margin-bottom: 10px;
+  font-weight: 550;
+}
+
+#Pass, #User{
+  background-color: #fafafa;
+  border-radius: 5px;
+  height: 25px;
+  font-style: italic;
+  font-weight:500;
+  font-size: 15px;
+}
+
+.btnSignIn{
+  padding: 5px;
+  width: 100px;
+  border-radius: 5px;
+  border-style: hidden;
+  font-size: 15px;
+  background-color: #fafafa;
+}
+.btnSignIn:hover{
+  background-color: #242424;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.signUp{
+  color: #4aa7b2;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.signUp:hover{
+  color: #2146C7;
+}
+
+/*--------------------END-LOGIN------------------------*/
