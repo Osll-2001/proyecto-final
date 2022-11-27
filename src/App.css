@@ -13,8 +13,9 @@ body {
   min-width: 320px;
   min-height: 100vh;
   /*background-color: #242424;*/
-  background-image: url('./assets/fondo.jpg');
+  background-image: url('./assets/fondo-blur.png');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom;
   color: #fafafa;
 }
