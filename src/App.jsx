@@ -1,11 +1,10 @@
 import './App.css'
-import Login from './components/Login'
+import RouteIndex from './routes'
 
-function App() {
-
+function App () {
   return (
     <>
-      <Login/>
+      <RouteIndex />
     </>
   )
 }
