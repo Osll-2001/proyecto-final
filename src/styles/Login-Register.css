@@ -9,7 +9,7 @@
   }
   
   .titleForm{
-    color: #4aa7b2;
+    color: #ADDDD0;
   }
   
   .sectionForm{
@@ -23,41 +23,54 @@
   
   label{
     margin-bottom: 10px;
-    font-weight: 550;
+    font-size: 19px;
+    font-weight: 500;
   }
   
   .inputForm{
-    background-color: #fafafa;
-    border-radius: 5px;
+    background-color: #EEEEEE;
+    border-radius: 6px;
+    border-color: transparent;
     height: 25px;
-    font-style: italic;
+    font-style: normal;
     font-weight:500;
     font-size: 15px;
     width: 100%;
+    padding: 4px 8px;
   }
   
-  .btnSignIn{
+  .btnSign{
     padding: 5px;
     width: 100px;
+    height: 35px;
     border-radius: 5px;
     border-style: hidden;
-    font-size: 15px;
-    background-color: #fafafa;
+    font-size: 16px;
+    background-color: #EEEEEE;
   }
-  .btnSignIn:hover{
+  .btnSign:hover{
     background-color: #242424;
-    color: #fafafa;
+    color: #EEEEEE;
     cursor: pointer;
   }
   
-  .signUp{
-    color: #4aa7b2;
+  .signUpLink , .loginLink{
+    color: #ADDDD0;
     font-size: 20px;
     cursor: pointer;
   }
   
-  .signUp:hover{
+  .signUpLink:hover , .loginLink:hover{
     color: #2146C7;
+  }
+
+  .sectionQuestion{
+    flex-direction: row;
+    justify-content: center;
+  }
+  .questionAccount{
+    color: #EEEEEE;
+    text-decoration: none;
   }
   
   /*--------------------END-LOGIN------------------------*/

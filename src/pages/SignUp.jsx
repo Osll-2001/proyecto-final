@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from 'react-router-dom'
 
 const SignUp = () => {
   return (
@@ -30,9 +30,13 @@ const SignUp = () => {
           <input className='inputForm' type='password' id='confirmPass' placeholder='************' />
         </div>
         <div className='sectionForm'>
-          <button className='btnSignIn'>Register</button>
+          <button className='btnSign'>Register</button>
+        </div>
+        <div className='sectionForm sectionQuestion'>
+          <span className='questionAccount'>Already have an account?</span><Link className='loginLink' to='/login'>Sign in</Link>
         </div>
       </form>
+
     </>
   )
 }
