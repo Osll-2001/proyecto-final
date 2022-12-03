@@ -1,0 +1,33 @@
+.containerLyrics{
+    background-color: rgba(0,0,0, 0.7);
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+}
+
+.infoMusic{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+}
+
+#txtALyrics{
+    width: 90%;
+    height: 75vh;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+    outline: none;
+    background-color:#EEEEEE;
+    color: #242424;
+    font-size: 20px;
+    font-style: normal;
+}
+ 

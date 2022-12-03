@@ -1,4 +1,4 @@
-import React from 'react'
+
 import LyricsContainer from '../components/LyricsContainer'
 import NavHome from '../components/NavHome'
 import { SongProvider } from '../context/SongContext'
