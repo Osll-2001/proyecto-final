@@ -1,8 +1,16 @@
 import React from 'react'
+import LyricsContainer from '../components/LyricsContainer'
+import NavHome from '../components/NavHome'
+import { SongProvider } from '../context/SongContext'
 
 const Home = () => {
   return (
-    <h1>Home</h1>
+    <>
+      <SongProvider>
+        <NavHome />
+        <LyricsContainer />
+      </SongProvider>
+    </>
   )
 }
 

@@ -1,0 +1,45 @@
+#root{
+    padding: 0;
+}
+
+.NavHome{
+    margin: 0;
+    width: 100vw;
+    background-color: rgba(0,0,0, 0.7);
+    height: 70px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.buscador{
+    height: auto;
+    display: flex;
+    place-items: center;
+    text-align: center;
+}
+
+.inputBus{
+   width: 40%;
+   height: 25px;
+   border-radius: 5px;
+   /*background-color: #D6E4E5;*/
+   margin-right: 5px;
+   border-color: transparent;
+   font-style: normal;
+    font-weight:500;
+    font-size: 15px;
+    padding: 4px 8px;
+}
+
+.btnBuscar{
+    height: 40px;
+    border-radius: 5px;
+    color: #212121;
+    font-size: 15px;
+    background-color: #B7C4CF;
+}
+
+.btnBuscar:hover{
+    background-color: #212121;
+    color: #fafafa;
+}
