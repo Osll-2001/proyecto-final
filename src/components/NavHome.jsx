@@ -14,7 +14,14 @@ const NavHome = () => {
     setDataSearched({ ...dataSearched, [name]: value })
   }
 
+  // MODIFICA CADA PRIMERA LETRA DEL TEXTO DE LOS INPUT PARA ASI CAPITALIZARLO
+  const capitalizeData = () => {
+    dataSearched.artist = dataSearched.artist.replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase())
+    dataSearched.song = dataSearched.song.replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase())
+  }
+
   const searchSong = async () => {
+    capitalizeData()
     const url = `https://api-devf.up.railway.app/songs?name=${dataSearched.song}&band=${dataSearched.artist}`
     const response = await axios.get(url)
     context.setSearchedSong(response.data.data[0])
