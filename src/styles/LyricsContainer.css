@@ -31,16 +31,52 @@
     border: none;
     resize: none;
     outline: none;
-    background-color:#EEEEEE;
-    color: #242424;
+    background-color:transparent;
+    color: #EEEEEE;
     font-size: 20px;
     font-style: normal;
 }
 
+.lyricsMusic{
+    border-left: 2px solid #EEEEEE;
+}
+
+#txtALyrics::-webkit-scrollbar {
+    width: 0.2em;
+}
+
+#txtALyrics::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+#txtALyrics::-webkit-scrollbar-thumb {
+  background-color: #EEEEEE;
+  outline: 1px solid #EEEEEE;
+  border-radius: 3px;
+}
+
 .info-title{
-    color: brown;
+    color: #ADDDD0;
     display: block;
     margin-bottom: 5px;
 }
 
+.linkSong{
+    text-decoration: none;
+    color: #242424;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.btnSong{
+    width: 30%;
+    margin-left: 35%;
+    height: 30px;
+    background-color: #ADDDD0;
+    border-radius: 5px;
+}
+
+.btnSong:hover{
+    background-color: #EEEEEE;
+}
  

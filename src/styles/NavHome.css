@@ -25,6 +25,7 @@
     font-weight:500;
     font-size: 15px;
     padding: 4px 8px;
+    text-transform: capitalize;
 }
 
 .btnBuscar{
