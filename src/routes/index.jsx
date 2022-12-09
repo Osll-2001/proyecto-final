@@ -3,6 +3,7 @@ import Error404 from '../pages/Error404'
 import Login from '../pages/Login'
 import SignUp from '../pages/SignUp'
 import Home from '../pages/Home'
+import HomeAdmin from '../pages/HomeAdmin'
 
 const RouteIndex = () => {
   return (
@@ -12,6 +13,7 @@ const RouteIndex = () => {
       <Route path='/' element={<Navigate to='/home' replace />} />
       <Route path='/login' element={<Login />} />
       <Route path='/signup' element={<SignUp />} />
+      <Route path='/homeadmin' element={<HomeAdmin />} />
       <Route path='*' element={<Error404 />} />
     </Routes>
   )
