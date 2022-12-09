@@ -1,6 +1,6 @@
 
 /*------------------LOGIN-------------------------------*/
-.formLogin, .formSignUp{
+.formLogin, .formSignUp, .divUserCreate{
     margin: 30px;
     padding: 30px;
     /*background-color:#212121;*/
@@ -71,6 +71,14 @@
   .questionAccount{
     color: #EEEEEE;
     text-decoration: none;
+  }
+
+  .opcionIngresoCuenta{
+    text-decoration: none;
+    width: fit-content;
+    color: #ADDDD0;
+    margin-bottom: 10px;
+    font-size: 20px;
   }
   
   /*--------------------END-LOGIN------------------------*/
