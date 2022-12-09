@@ -23,7 +23,7 @@ const NavHome = () => {
   const searchSong = async () => {
     if (!dataSearched.artist || !dataSearched.song) { return console.log('rellenar') }
     capitalizeData()
-    const url = `https://api-devf.up.railway.app/songs?name=${dataSearched.song}&band=${dataSearched.artist}`
+    const url = `https://api-music.up.railway.app/songs?name=${dataSearched.song}&band=${dataSearched.artist}`
     const response = await axios.get(url)
     context.setSearchedSong(response.data.data[0])
   }
